@@ -1,0 +1,85 @@
+body {
+  font-family: "Courier Prime", monospace;
+}
+
+.navbar {
+  padding-top: 5px;
+}
+.navbar .navbar-toggler {
+  outline: none;
+}
+.navbar .dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+.navbar .dropdown-menu .dropdown-item {
+  color: white;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(204, 194, 48, 0.2);
+}
+
+.navbar img {
+  width: 250px;
+  margin: 5px 0;
+}
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  font-size: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: whitesmoke;
+  font-size: 20px;
+}
+.carousel-inner h2 {
+  text-shadow: 2px 2px 4px rgb(82, 87, 76);
+  font-size: 60px;
+}
+.carousel-inner .btn {
+  box-shadow: 2px 2px 6px rgba(34, 34, 33, 0.5);
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.destacados h2 {
+  font-size: 25px;
+}
+.destacados p {
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -39px;
+}
+.destacados img:hover {
+  opacity: 0.8;
+}
+.destacados a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.subscripcion{
+color:#e26e7a;
+}
+
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

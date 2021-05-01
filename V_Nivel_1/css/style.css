@@ -1,0 +1,61 @@
+body {
+  font-family: 'Asap', sans-serif;}
+
+.navbar {
+  padding-top: 5px; }
+  .navbar .navbar-toggler {
+    outline: none; }
+  .navbar .dropdown-menu {
+    background-color: transparent;
+    border: none; }
+    .navbar .dropdown-menu .dropdown-item {
+      color: white; }
+      .navbar .dropdown-menu .dropdown-item:hover {
+        background-color: rgba(255, 255, 255, 0.2)}
+
+  .navbar img {
+    width: 180px;
+    margin:5px 0;
+    }
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  font-size: 15px; }
+
+.navbar-nav .nav-item .nav-link {
+  color: white; 
+  font-size:20px;
+}
+.carousel-inner h2 {
+  text-shadow: 2px 2px 4px rgb(17, 17, 17); }
+.carousel-inner .btn {
+  box-shadow: 2px 2px 6px rgba(180, 169, 169, 0.5); }
+
+.carousel-item {
+  overflow: hidden; }
+
+.carousel-item {
+  overflow: hidden; }
+  
+.destacados h2 {
+  font-size: 25px; }
+.destacados p {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -39px; }
+.destacados img:hover {
+  opacity: 0.8; }
+.destacados a:hover {
+  text-decoration: none;
+  opacity: 0.8; }
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    width: 100%; }
+
+  .btn {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
