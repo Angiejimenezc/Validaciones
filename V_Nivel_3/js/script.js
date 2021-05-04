@@ -178,3 +178,9 @@ function validarPass(pass) {
   var regex1 = /^(?=.*[A-Z])(?=.*\d)[a-zA-Z\d\.\_\-]{8,}$/;
   return regex1.test(pass) ? true : false;
 }
+
+let icon = document.querySelector(".menu_icon");
+
+icon.addEventListener("click", () => {
+  icon.classList.toggle("clicked");
+});
