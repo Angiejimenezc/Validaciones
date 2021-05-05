@@ -51,7 +51,7 @@ function validarLogin() {
     document.getElementById("errorCorreoLogin").textContent =
       "Introduce un correo electrónico.";
     acumErrores++;
-  } else if (!validarCorreo(correo.value)) {
+  } else if (!validarCorreo(inputCorreo.value)) {
     inputCorreo.classList.add("is-invalid");
     document.getElementById("errorCorreoLogin").textContent =
       "Por favor, introduce un correo válido.";
