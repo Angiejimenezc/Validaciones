@@ -15,7 +15,7 @@ function validacionBusqueda() {
     document.getElementById("errorBusqueda").textContent =
       "Introduce un criterio de búsqueda.";
     acumErrores++;
-  } else if (buscar.value.length < 3) {
+  } else if (buscar.value.length <= 3) {
     buscar.classList.add("is-invalid");
     document.getElementById("errorBusqueda").textContent =
       "El campo debe contener más de 3 caracteres";
@@ -50,8 +50,7 @@ function validarLogin() {
     inputCorreo.classList.add("is-invalid");
     document.getElementById("errorCorreoLogin").textContent =
       "Introduce por favor un correo electrónico.";
-    acumErrores++;
-  } else if (!validarCorreo(correo.value)) {
+  } else if (!validarCorreo(inputCorreo.value)) {
     inputCorreo.classList.add("is-invalid");
     document.getElementById("errorCorreoLogin").textContent =
       "El correo debe ser válido.";
@@ -59,7 +58,6 @@ function validarLogin() {
   }
 
   if (inputPass.value == "") {
-    inputPass.classList.add("is-invalid");
     document.getElementById("errorPassLogin").textContent =
       "Introduce un Password.";
     acumErrores++;
